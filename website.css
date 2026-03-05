@@ -1,7 +1,99 @@
-h1{
-    /*color : red;*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f6f8fb;
+    color: #333;
 }
 
-body {
-    /*background-color: antiquewhite;*/
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f2937;
+    padding: 15px 10%;
+}
+
+.logo {
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #60a5fa;
+}
+
+/* Hero Section */
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(135deg, #3b82f6, #9333ea);
+    color: white;
+}
+
+.highlight {
+    color: #fde68a;
+}
+
+/* Sections */
+
+section {
+    padding: 80px 15%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Projects */
+
+.project-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #3b82f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background: #2563eb;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #1f2937;
+    color: white;
 }
